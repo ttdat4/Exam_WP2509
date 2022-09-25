@@ -1,0 +1,23 @@
+.p-news {
+    .c-news {
+        &__table {
+            tr {
+                &:nth-child(1) {
+                    border-top: 0;
+                }
+
+                &:last-child {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .l-newswrap {
+        &::before {
+            background: unset;
+            height: unset;
+            width: unset;
+        }
+    }
+}
